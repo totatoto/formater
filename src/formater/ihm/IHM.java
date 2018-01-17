@@ -19,7 +19,10 @@ public abstract class IHM
 	 */
 	private static IHM instance = null;
 
-	public static int ERR_ARG_MAIN = 0;
+	/**
+	 * entier utilisé comme parametre de {@link #showError(int)}
+	 */
+	public static final int ERR_ARG_MAIN = 0;
 
 	/**
 	 * méthode utilisée pour obtenir l'instance de l'{@link IHM}
