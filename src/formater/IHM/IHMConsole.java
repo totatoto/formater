@@ -1,4 +1,8 @@
 class IHMConsole extends IHM
 {
-	//TODO
+	
+	public void showError(int numErr)
+	{
+		//TODO
+	}
 }
