@@ -1,6 +1,7 @@
 package formater;
 
 import formater.ihm.IHM;
+import formater.job.FileFilterJava;
 
 import java.io.File;
 
@@ -39,7 +40,7 @@ public class Controler
 	{
 		IHM ihm = IHM.getInstance();
 		
-		if (args.lenght == 0)
+		if (args.length == 0)
 		{
 			ihm.showError(IHM.ERR_ARG_MAIN);
 			return;
