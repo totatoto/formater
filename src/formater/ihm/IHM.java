@@ -18,12 +18,9 @@ public abstract class IHM
 	 * son unicité est assurée par {@link #getInstance()}
 	 */
 	private static IHM instance = null;
-	
+
 	public static int ERR_ARG_MAIN = 0;
-	
-	
-	
-	
+
 	/**
 	 * méthode utilisée pour obtenir l'instance de l'{@link IHM}
 	 * si l'instance est nulle une nouvelle est crée selon le type demandé
@@ -52,6 +49,6 @@ public abstract class IHM
 		}
 		return instance;
 	}
-	
+
 	public abstract void showError(int numErr);
 }

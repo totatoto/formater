@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd bin
-java formater.Formater
+java formater.Controler

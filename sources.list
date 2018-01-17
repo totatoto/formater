@@ -1,3 +1,7 @@
+src/formater/ihm/IHM.java
+src/formater/ihm/IHMConsole.java
 src/formater/IHM/IHM.java
 src/formater/IHM/IHMConsole.java
+src/formater/job/FileFilterJava.java
+src/formater/job/Formater.java
 src/formater/Controler.java
