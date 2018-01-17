@@ -1,0 +1,2 @@
+Lister les fichiers sur lesquels on doit intéragir.
+parcoure du fichier et si détection de bloc, appelle fonction bloc. // monoligne possible
