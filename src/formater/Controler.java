@@ -2,6 +2,7 @@ package formater;
 
 import formater.ihm.IHM;
 import formater.job.FileFilterJava;
+import formater.job.Formater;
 
 import java.io.File;
 
@@ -38,6 +39,7 @@ public class Controler
 	
 	public static void main(String[] args)
 	{
+		System.out.println(Formater.onOneLine(new File("./Chrono.java")));
 		IHM ihm = IHM.getInstance();
 		
 		if (args.length == 0)
